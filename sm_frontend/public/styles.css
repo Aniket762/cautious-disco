@@ -1,0 +1,243 @@
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.666;
+  color: #555;
+  background-color: #000000;
+  /*background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");*/
+}
+
+header {
+  background-color: black;
+  margin: -22px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+h1 header {
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  font-size: 5rem;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px lightseagreen,
+      0 0 40px lightseagreen, 0 0 50px lightseagreen, 0 0 60px lightseagreen,
+      0 0 70px lightseagreen;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #2edbd3, 0 0 40px #2edbd3,
+      0 0 50px #2edbd3, 0 0 60px #2edbd3, 0 0 70px #2edbd3, 0 0 80px #2edbd3;
+  }
+}
+
+.social-hide {
+  visibility: hidden;
+}
+
+.social-icons {
+  padding: 5px;
+}
+a.twitter {
+  color: #00acee;
+}
+
+a.instagram {
+  color: black;
+}
+
+a.linkedin {
+  color: #0e76a8;
+}
+
+a.facebook {
+  color: #3b5998;
+}
+
+a.youtube {
+  color: #ff0000;
+}
+
+a.telegram {
+  color: #0088cc;
+}
+
+a.blog {
+  color: #fc4f08;
+}
+
+a.portfolio {
+  color: #224d22;
+}
+
+.try {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 4rem auto;
+}
+.dictionary > .term {
+  text-align: center;
+  width: 22rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  background-color: #fff;
+  transition: all 100ms ease-in-out;
+}
+
+.dictionary > .term > dt {
+  margin-bottom: 1rem;
+}
+
+dt {
+  color: #2ec2b0;
+  line-height: 1;
+}
+
+dt span {
+  font-size: 200%;
+  font-weight: 900;
+}
+
+.emoji {
+  margin: 0 auto 20px;
+  display: block;
+  font-size: 400%;
+}
+
+.img-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trial {
+  padding: 100px;
+}
+.social {
+  display: block;
+  margin: 20px;
+}
+
+dd {
+  font-size: 92.5%;
+  margin-left: 0;
+  text-align: justify;
+}
+
+dd dt {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+dd dl {
+  font-size: 90%;
+  margin: 1rem auto 0 auto;
+  letter-spacing: 0.33px;
+  max-width: 15rem;
+}
+
+dd dl .term {
+  margin-bottom: 1rem;
+}
+
+.term {
+  box-shadow: 50px 10px black;
+}
+
+.footer-distributed {
+  background: rgb(0, 0, 0);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 102.5%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 20px 20px;
+  margin-left: -1%;
+  margin-right: -1%;
+  position: absolute;
+}
+
+.footer-distributed .footer-icons {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-distributed .footer-icons a {
+  text-align: center;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  padding: 2px;
+  margin: 4px;
+}
+
+.footer-distributed .footer-icons a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 header {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+  .dictionary {
+    padding-top: 30px;
+    margin: 20px;
+  }
+}
+
+/*sectionHeader*/
+.club-sections {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: black;
+}

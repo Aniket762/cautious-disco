@@ -1,2 +1,0 @@
-# cautious-disco
-sm-front
